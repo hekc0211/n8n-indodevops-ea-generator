@@ -1,0 +1,22 @@
+
+                <svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0a0a0a"/>
+                            <stop offset="50%" style="stop-color:#1a1a2e"/>
+                            <stop offset="100%" style="stop-color:#16213e"/>
+                        </linearGradient>
+                        <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#ff6b6b"/>
+                            <stop offset="33%" style="stop-color:#feca57"/>
+                            <stop offset="66%" style="stop-color:#48dbfb"/>
+                            <stop offset="100%" style="stop-color:#ff9ff3"/>
+                        </linearGradient>
+                    </defs>
+                    <rect width="400" height="120" fill="url(#bg)"/>
+                    <ellipse cx="200" cy="25" rx="100" ry="15" fill="#ff6b6b"/>
+                    <rect x="170" y="15" width="60" height="30" fill="#667eea"/>
+                    <text x="200" y="70" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="url(#textGrad)">INDODEVOPS</text>
+                    <text x="200" y="90" font-family="Arial" font-size="10" text-anchor="middle" fill="#feca57">CONTAINER • DEPLOY • SCALE</text>
+                </svg>
+            
